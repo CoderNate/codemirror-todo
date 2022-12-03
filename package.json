@@ -1,0 +1,26 @@
+{
+  "name": "codemirror-todo",
+  "version": "0.1.0",
+  "description": "A basic to-do list based on CodeMirror's support for markdown and vim",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@codemirror/lang-markdown": "6.0.0",
+    "@replit/codemirror-vim": "6.0.0",
+    "codemirror": "6.0.1",
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [
+    "typescript",
+    "javascript"
+  ]
+}
