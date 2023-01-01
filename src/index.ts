@@ -1,4 +1,4 @@
-import "./styles.css";
+// import "./styles.css";
 
 //import { basicSetup } from "codemirror";
 import { basicSetup } from "./basicsetup";
@@ -43,7 +43,7 @@ class ConcealWidget extends WidgetType {
     console.log(
       "TODO: Figure out why codesandbox.io doesnt like me calling super"
     );
-    // super();
+    super();
   }
 
   eq(other: ConcealWidget) {
